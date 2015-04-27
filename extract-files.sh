@@ -19,27 +19,20 @@ MANUFACTURER=sony
 
 . ../shinano-common/extract-files.sh
 
-SHINANO_ETC="
-	simple_thermal_monitor.cfg
-	"
-
-copy_files "$SHINANO_ETC" "system/etc" "etc"
-
 SHINANO_FIRMWARE_CLEARPAD="
-       touch_module_id_0x74.img
-       touch_module_id_0x75.img
-       touch_module_id_0x76.img
-       touch_module_id_0x78.img
-       touch_module_id_0x7a.img
-       touch_module_id_0x7b.img
-       touch_module_id_0x7c.img
-       touch_module_id_0x7d.img
-       touch_module_id_0x7e.img
-       touch_module_id_0x7f.img
-       touch_module_id_0x80.img
-       touch_module_id_0x81.img
-       touch_module_id_0x95.img
-       touch_module_id_0x96.img
-       "
+      touch_module_id_0x82.img
+      touch_module_id_0x84.img
+      touch_module_id_0x85.img
+      touch_module_id_0x87.img
+      touch_module_id_0x88.img
+      touch_module_id_0x89.img
+      touch_module_id_0x8a.img
+      touch_module_id_0x8c.img
+      touch_module_id_0x8d.img
+      touch_module_id_0x8e.img
+      touch_module_id_0x92.img
+      touch_module_id_0x93.img
+      touch_module_id_0x94.img
+      "
 
 copy_files "$SHINANO_FIRMWARE_CLEARPAD" "system/etc/firmware" "etc/firmware"
